@@ -1,7 +1,8 @@
-@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&family=Merriweather+Sans:wght@400;700&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap');
 body {
-  font-family: 'Lato', sans-serif;
-  color: #040000;
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+  font-style: normal;
 }
 
 html {
@@ -83,7 +84,7 @@ a:focus {
 /*header section*/
 .hero_area {
   position: relative;
-  background-color: #50c3ed31;
+  background-color: #ffffff;
 }
 
 .header_section .container-fluid {
@@ -111,6 +112,7 @@ a:focus {
 
 .header_section .header_top .contact_nav a i {
   color: #ff8a1d;
+  color: #f92432;
 }
 
 .header_section .header_bottom {
@@ -127,9 +129,9 @@ a:focus {
 }
 
 .navbar-brand span {
-  color: #0355cc;
+  color: #f92432;
   text-transform: uppercase;
-  font-size:medium;
+  font-size: medium;
 }
 
 .custom_nav-container {
@@ -147,7 +149,7 @@ a:focus {
 }
 
 .custom_nav-container .navbar-nav .nav-item:hover .nav-link, .custom_nav-container .navbar-nav .nav-item.active .nav-link {
-  color: #0355cc;
+  color: #f92432;
 }
 
 .custom_nav-container .form-inline .nav_search-btn {
@@ -159,7 +161,7 @@ a:focus {
 }
 
 .custom_nav-container .form-inline .nav_search-btn:hover {
-  color: #0355cc;
+  color: #f92432;
 }
 
 .custom_nav-container .navbar-toggler {
@@ -266,7 +268,7 @@ a:focus {
 }
 
 .quote_btn-container a:hover {
-  color: #ff8a1d;
+  color: #f92432;
 }
 
 /*end header section*/
@@ -303,7 +305,7 @@ a:focus {
 .slider_section .detail-box h1 {
   font-weight: bold;
   margin-bottom: 25px;
-  color: #0355cc;
+  color: #000000;
   max-width: 500px;
 }
 
@@ -317,8 +319,8 @@ a:focus {
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 45px;
-  background-color: #ff8a1d;
-  border: 1px solid #ff8a1d;
+  background-color: #f92432;
+  border: 1px solid #f92432;
   border-radius: 5px;
   color: #ffffff;
   margin-top: 15px;
@@ -326,7 +328,7 @@ a:focus {
 
 .slider_section .detail-box a:hover {
   background-color: transparent;
-  color: #ff8a1d;
+  color: #f92432;
 }
 
 .slider_section .img-box img {
@@ -396,7 +398,7 @@ a:focus {
 }
 
 .feature_section .feature_container .box:hover, .feature_section .feature_container .box.active {
-  background-color: #ff8a1d;
+  background-color: #f92432;
   color: #ffffff;
 }
 
@@ -429,15 +431,15 @@ a:focus {
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 45px;
-  background-color: #0355cc;
-  border: 1px solid #0355cc;
+  background-color: #f92432;
+  border: 1px solid #f92432;
   border-radius: 2px;
   color: #ffffff;
 }
 
 .about_section .detail-box a:hover {
   background-color: transparent;
-  color: #0355cc;
+  color: #f92432;
 }
 
 .about_section .img-box img {
@@ -461,7 +463,7 @@ a:focus {
 .professional_section .detail-box h2 {
   text-transform: uppercase;
   font-weight: bold;
-  color: #0355cc;
+  color: #f92432;
 }
 
 .professional_section .detail-box p {
@@ -474,15 +476,15 @@ a:focus {
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 45px;
-  background-color: #ff8a1d;
-  border: 1px solid #ff8a1d;
+  background-color: #f92432;
+  border: 1px solid #f92432;
   border-radius: 2px;
   color: #ffffff;
 }
 
 .professional_section .detail-box a:hover {
   background-color: transparent;
-  color: #ff8a1d;
+  color: #f92432;
 }
 
 .service_section {
@@ -547,13 +549,8 @@ a:focus {
   padding: 5px 20px;
 }
 .service_section .box:hover {
-  background-color: #ff8a1d;
-  color: #ffffff;
-}
-
-.service_section .box:hover .img-box img {
-  -webkit-filter: brightness(0) invert(1);
-          filter: brightness(0) invert(1);
+  box-shadow: 0 0 5px 2px rgba(0, 0, 0, 0.297);
+  cursor: pointer;
 }
 
 .service_section .btn-box {
@@ -571,15 +568,15 @@ a:focus {
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 45px;
-  background-color: #0355cc;
-  border: 1px solid #0355cc;
+  background-color: #f92432;
+  border: 1px solid #f92432;
   border-radius: 0;
   color: #ffffff;
 }
 
 .service_section .btn-box a:hover {
   background-color: transparent;
-  color: #0355cc;
+  color: #f92432;
 }
 
 .client_section .heading_container {
@@ -654,7 +651,7 @@ a:focus {
 .client_section .owl-carousel .owl-nav button {
   width: 50px;
   height: 50px;
-  background-color: #0355cc;
+  background-color: #f92432;
   outline: none;
   margin: 0 20px;
   color: #ffffff;
@@ -706,7 +703,11 @@ a:focus {
 }
 
 .contact_section{
-  background-color: #50c3ed91;
+  width: 95%;
+  margin: auto auto;
+  padding: 20px;
+  border-radius: 2px;
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.2);
 }
 
 .contact_section input {
@@ -748,8 +749,8 @@ a:focus {
   font-family: 'Merriweather Sans', sans-serif;
   text-transform: uppercase;
   padding: 10px 55px;
-  background-color: #0355cc;
-  border: 1px solid #0355cc;
+  background-color: #f92432;
+  border: 1px solid #f92432;
   border-radius: 0;
   color: #ffffff;
   margin-top: 15px;
@@ -757,7 +758,7 @@ a:focus {
 
 .contact_section button:hover {
   background-color: transparent;
-  color: #0355cc;
+  color: #f92432;
 }
 
 .contact_section .map_container {
@@ -813,7 +814,7 @@ a:focus {
 }
 
 .info_section .info_top #i_addr {
-  color: #ff8a1d !important;
+  color: #f92432 !important;
 }
 
 .info_section .info_contact a {
